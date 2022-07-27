@@ -1,0 +1,44 @@
+*{
+    color: white;
+}
+html{
+    overflow-x: hidden;
+    overflow-y: scroll  ;
+}
+.font_color{
+    color: black;
+}
+.hover_effect:hover{
+    background-color: #585757;
+}
+.main{
+    background-image: url(showcase.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.pt-15{
+    padding-top: 10%;
+}
+h1{
+    font-size: 3rem;
+}
+.div3{
+    height: 70vh;
+    background-size: cover;
+    background-image: url(section-bg.jpeg);
+    background-repeat: no-repeat;   
+}
+.gift_card{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+}
+.fc-white{
+    color: white;
+}
+.footer-bg{
+    background-color: #585757;
+}
